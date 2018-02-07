@@ -15,5 +15,5 @@ mv image.jpg SmallCamDoor.jpg
 mv image2.jpg BigCamTop.jpg
 
 # Upload image files to S3
-aws s3 cp "/home/pi/CamImages/SmallCamDoor.jpg" s3://iotminifridge/
-aws s3 cp "/home/pi/CamImages/BigCamTop.jpg" s3://iotminifridge/
+aws s3 cp "/home/pi/CamImages/SmallCamDoor.jpg" s3://iotminifridge-userfiles-mobilehub-456530050/public/
+aws s3 cp "/home/pi/CamImages/BigCamTop.jpg" s3://iotminifridge-userfiles-mobilehub-456530050/public/
